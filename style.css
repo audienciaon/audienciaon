@@ -6,6 +6,25 @@
     --cor-texto: #333333; /* Text Color */
 }
 
+header, footer{
+    width:100vw;
+    padding:30px calc(calc(100wh - 1000px) / 2);
+    background-color:var(--cor-fundo);
+}
+
+body{
+    background-color:var(--cor-maxima);
+}
+
+
+
+
+
+
+
+
+
+
 .publicacao {
     font-size: 14px
 }
