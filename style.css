@@ -14,13 +14,16 @@ header, footer{
 
 body{
     background-color:var(--cor-maxima);
-    font-family:Plus Jakarta Sans;
+    font-family: Plus Jakarta Sans;
     margin:0 !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-
-
+@font-face {
+    font-family: 'NomeDaFonte';
+    src: url('fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
