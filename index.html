@@ -1225,7 +1225,14 @@ body{
 ddd
     </header>
     <main>
-        teste aqui
+        <script>
+        // Carregar o menu a partir de um arquivo externo
+        fetch('menu.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('menu').innerHTML = data;
+            });
+    </script>
     </main>
     <footer>
 ddd
