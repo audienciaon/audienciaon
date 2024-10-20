@@ -20,7 +20,7 @@ body{
 
 @font-face {
     font-family: 'NomeDaFonte';
-    src: url('fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+    src: url('/fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
